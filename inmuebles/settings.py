@@ -103,7 +103,7 @@ DATABASES = {
     #     'HOST': 'localhost'
     # }
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'USER': 'postgres',
         'NAME': 'railway',
         'PASSWORD': 'hCw9vBD1EZ7RUnN2dFks',
